@@ -3,6 +3,12 @@ html, body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+nav {
+  li {
+    display: inline;
+  }
+}
+
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -14,7 +20,6 @@ header {
   height: 500px;
   background: url(http://freebigpictures.com/wp-content/uploads/evergreen-forest.jpg) no-repeat center center;
   background-size: cover;
-  border-top: 15px solid #000;
   color: #fff;
 
   .container {
