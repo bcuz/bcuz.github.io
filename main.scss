@@ -26,30 +26,30 @@ header {
   position: relative;
   top: 80px;
 }
+  span {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bolder;
+    display: inline-block;
+  }
+  h1 {
+    text-transform: uppercase;
+    margin: -20px 0 0;
+    font-size: 7.5em;
+
+    /* stroke from CSS tricks */
+    text-shadow:
+      3px 3px 0 #000,
+      /* Simulated effect for Firefox and Opera
+         and nice enhancement for WebKit */
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+     -1px  1px 0 #000,
+      1px  1px 0 #000;
+  }
 }
 
-span {
-  color: #000;
-  font-size: 1.2em;
-  font-weight: bolder;
-  display: inline-block;
-}
 
-h1 {
-  text-transform: uppercase;
-  margin: -20px 0 0;
-  font-size: 7.5em;
-
-  /* stroke from CSS tricks */
-  text-shadow:
-    3px 3px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-   -1px  1px 0 #000,
-    1px  1px 0 #000;
-}
 
 .btn {
   text-transform: uppercase;
@@ -108,7 +108,7 @@ section .container div {
 }
 
 /* 3rd section */
-section:nth-child(4) {
+.tennis {
   height: 500px;
   background: url(tennis.jpg) no-repeat center center;
   background-size: cover;
