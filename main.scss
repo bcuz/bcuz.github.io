@@ -1,0 +1,182 @@
+html, body {
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  text-align: center;
+  height: 500px;
+  background: url(http://freebigpictures.com/wp-content/uploads/evergreen-forest.jpg) no-repeat center center;
+  background-size: cover;
+  border-top: 15px solid #000;
+  color: #fff;
+
+  .container {
+  position: relative;
+  top: 80px;
+}
+}
+
+span {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: -20px 0 0;
+  font-size: 7.5em;
+
+  /* stroke from CSS tricks */
+  text-shadow:
+    3px 3px 0 #000,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+
+.btn {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 40px;
+  background-color: #fff;
+  text-decoration: none;
+  color: green;
+}
+
+.btn:hover, .btn:focus {
+  background-color: magenta;
+  color: #fff;
+}
+
+/* all sections */
+section {
+  height: 275px;
+  border-bottom: 1px solid #eee;
+}
+
+section .container {
+  margin-top: 90px;
+}
+
+/* 1st section*/
+img:first-child {
+  border-radius: 100%;
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin-right: 60px;
+  margin-top: -50px;
+}
+
+/* 2nd section */
+img:last-child {
+  width: 170px;
+  margin-top: -50px;
+}
+
+section:nth-child(3) {
+  text-align: right;
+}
+
+h2:nth-child(1) {
+  text-align: left;
+  margin: 0;
+}
+
+section .container div {
+  float: left;
+  max-width: 650px;
+  text-align: left;
+}
+
+/* 3rd section */
+section:nth-child(4) {
+  height: 500px;
+  background: url(tennis.jpg) no-repeat center center;
+  background-size: cover;
+  border: none;
+}
+
+/* footer */
+footer {
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+footer .container {
+  position: relative;
+  top: 30px;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+footer li {
+  display: inline;
+  padding: 28px 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  background-color: #A9B7B9;
+  padding: 30px 5px;
+  transition: background-color .7s;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+
+  img:first-child {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  section h2, h2:nth-child(1) {
+    text-align: center;
+  }
+
+  /* may be a better way than this */
+  section {
+    padding-bottom: 200px;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  section p, h2:nth-child(1) {
+    padding: 0 15px;
+  }
+
+  img:last-child {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
