@@ -3,26 +3,6 @@ html, body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-nav {
-  background: rgba(0,0,0,.5);
-  color: #fff;
-  height: 4em;
-
-  ul {
-    margin: 0;
-  }
-
-  li {
-    display: inline;
-    margin-right: 0.8em;
-  }
-
-  .container {
-    position: relative;
-    top: 1em;
-  }
-}
-
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -60,6 +40,27 @@ header {
       1px -1px 0 #000,
      -1px  1px 0 #000,
       1px  1px 0 #000;
+  }
+}
+
+nav {
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  height: 4em;
+  text-align: left;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    margin-right: 1.3em;
+  }
+
+  .container {
+    position: relative;
+    top: 1em;
   }
 }
 
