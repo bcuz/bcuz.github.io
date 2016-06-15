@@ -1,5 +1,5 @@
 $(function() {
-  $(".btn").click(function() {
-    alert("Wassup homie?");
+  $("header img").click(function() {
+    $("ul").toggle()
   })
 });
