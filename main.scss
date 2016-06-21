@@ -10,6 +10,7 @@ html, body {
 
 /* header */
 header {
+
   text-align: center;
   height: 500px;
   background: url(http://freebigpictures.com/wp-content/uploads/evergreen-forest.jpg) no-repeat center center;
@@ -20,6 +21,28 @@ header {
   position: relative;
   top: 100px;
 }
+    h2 {
+      font-size: 3.2em;
+      margin: 0;
+    }
+
+  }
+
+
+  @media screen and (min-width: 700px) {
+    /* remember to change max/min 1024 */
+
+    header {
+
+    h2 {
+      margin: -25px 0 0;
+    font-size: 6.5em;
+    }
+    }
+  }
+
+header {
+
   span {
     color: #000;
     font-size: 1.2em;
@@ -28,8 +51,7 @@ header {
   }
   h2 {
     text-transform: uppercase;
-    margin: -25px 0 0;
-    font-size: 6.5em;
+
 
     /* stroke from CSS tricks */
     text-shadow:
@@ -202,14 +224,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 500px) {
-
-  header {
-    h2 {
-      font-size: 4em;
-      margin: 0;
-    }
-
-  }
 
   .intro img{
     float: none;
