@@ -4,7 +4,7 @@ $(function() {
   })
 
 
-  $(".btn").click(function() {
-    alert("Wassup homie?");
-  })
+  // $(".btn").click(function() {
+  //   alert("Wassup homie?");
+  // })
 });
