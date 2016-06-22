@@ -10,7 +10,6 @@ html, body {
 
 /* header */
 header {
-
   text-align: center;
   height: 500px;
   background: url(http://freebigpictures.com/wp-content/uploads/evergreen-forest.jpg) no-repeat center center;
@@ -40,7 +39,6 @@ header {
     }
 
   }
-
 
   @media screen and (min-width: 700px) {
     /* remember to change max/min 1024 */
@@ -72,8 +70,6 @@ section {
     margin-left: auto;
     margin-right: auto;
   }
-
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -192,8 +188,6 @@ img {
     text-align: left;
   }
 }
-
-
 
 /* 3rd section */
 .tennis {
