@@ -54,6 +54,23 @@ header {
     }
   }
 
+/* all sections */
+section {
+  border-bottom: 1px solid #eee;
+}
+
+section .container {
+  margin-top: 70px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  /* remember to change max/min 1024 */
+  section {
+    height: 300px;
+  }
+}
+
 nav {
    position: fixed;
   top: 0;
@@ -125,22 +142,12 @@ nav {
   color: #fff;
 }
 
-/* all sections */
-section {
-  height: 275px;
-  border-bottom: 1px solid #eee;
-}
-
-section .container {
-  margin-top: 90px;
-}
-
 /* 1st section*/
 
 .intro {
 img {
   border-radius: 100%;
-  float: left;
+  // float: left;
   width: 250px;
   height: 250px;
   // margin-right: 60px;
@@ -215,7 +222,7 @@ footer a:hover {
 @media screen and (max-width: 500px) {
 
   .intro img{
-    float: none;
+    // float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
