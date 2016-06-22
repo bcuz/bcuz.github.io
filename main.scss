@@ -63,10 +63,18 @@ section .container {
   margin-top: 70px;
 }
 
+section h2 {
+    text-align: center;
+  }
+
 @media screen and (min-width: 1024px) {
   /* remember to change max/min 1024 */
   section {
     height: 300px;
+  }
+
+  section h2 {
+    text-align: start;
   }
 }
 
@@ -164,7 +172,6 @@ img {
     margin-top: -50px;
   }
   h2 {
-    text-align: left;
     margin: 0;
   }
    .container div {
@@ -225,11 +232,6 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-
-
-  section h2, h2:nth-child(1) {
-    text-align: center;
   }
 
   /* may be a better way than this */
