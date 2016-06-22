@@ -94,7 +94,7 @@ section {
 }
 
 nav {
-   position: fixed;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -209,32 +209,32 @@ footer {
   background-color: #000;
   color: #fff;
   text-align: center;
-}
 
-footer .container {
+  .container {
   position: relative;
   top: 30px;
 }
 
-footer ul {
+ul {
   padding: 0;
   margin: 0 auto;
 }
 
-footer li {
+li {
   display: inline;
   padding: 28px 5px;
 }
 
-footer a {
+a {
   text-decoration: none;
   color: #fff;
 }
 
-footer a:hover {
+a:hover {
   background-color: #A9B7B9;
   padding: 30px 5px;
   transition: background-color .7s;
+}
 }
 
 @media screen and (max-width: 850px) {
