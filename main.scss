@@ -58,15 +58,17 @@ header {
 section {
   border-bottom: 1px solid #eee;
   padding-bottom: 50px;
-}
 
-section .container {
+  .container {
   margin-top: 70px;
 }
 
-section h2 {
+  h2 {
     text-align: center;
   }
+
+
+}
 
 @media screen and (min-width: 1024px) {
   /* remember to change max/min 1024 */
