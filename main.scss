@@ -67,6 +67,12 @@ section {
     text-align: center;
   }
 
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 }
 
@@ -78,6 +84,10 @@ section {
 
     h2 {
     text-align: start;
+  }
+
+  img {
+    display: inline;
   }
   }
 
@@ -227,27 +237,8 @@ footer a:hover {
   transition: background-color .7s;
 }
 
-@media screen and (max-width: 500px) {
-
-  .intro img{
-    // float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-}
-
-
 @media screen and (max-width: 850px) {
   section p, h2:nth-child(1) {
     padding: 0 15px;
-  }
-
-  // shouldn't be affected intro section
-  img:last-child {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
