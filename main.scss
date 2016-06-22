@@ -57,6 +57,7 @@ header {
 /* all sections */
 section {
   border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
 }
 
 section .container {
@@ -71,6 +72,7 @@ section h2 {
   /* remember to change max/min 1024 */
   section {
     height: 300px;
+    padding-bottom: 0;
   }
 
   section h2 {
@@ -231,10 +233,6 @@ footer a:hover {
     margin-right: auto;
   }
 
-  /* may be a better way than this */
-  section {
-    padding-bottom: 200px;
-  }
 }
 
 
