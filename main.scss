@@ -4,6 +4,45 @@ body {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header {
+    text-align: center;
+    height: 500px;
+    background: url(http://freebigpictures.com/wp-content/uploads/evergreen-forest.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    .container {
+        position: relative;
+        top: 100px;
+    }
+    h2 {
+        font-size: 3.2em;
+        margin: 0;
+        text-transform: uppercase;
+        /* stroke from CSS tricks */
+        text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
+           and nice enhancement for WebKit */
+        -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    /* remember to change max/min 1024 */
+    header {
+        h2 {
+            margin: -25px 0 0;
+            font-size: 6.5em;
+        }
+    }
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -49,45 +88,6 @@ nav {
     .container {
         position: relative;
         top: 1em;
-    }
-}
-
-.container {
-    max-width: 940px;
-    margin: 0 auto;
-}
-
-
-/* header */
-
-header {
-    text-align: center;
-    height: 500px;
-    background: url(http://freebigpictures.com/wp-content/uploads/evergreen-forest.jpg) no-repeat center center;
-    background-size: cover;
-    color: #fff;
-    .container {
-        position: relative;
-        top: 100px;
-    }
-    h2 {
-        font-size: 3.2em;
-        margin: 0;
-        text-transform: uppercase;
-        /* stroke from CSS tricks */
-        text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
-           and nice enhancement for WebKit */
-        -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    /* remember to change max/min 1024 */
-    header {
-        h2 {
-            margin: -25px 0 0;
-            font-size: 6.5em;
-        }
     }
 }
 
