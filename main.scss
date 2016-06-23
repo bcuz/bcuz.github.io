@@ -164,20 +164,21 @@ section {
 /* 2nd section */
 
 .origins {
-    // used to float the img right
-    text-align: right;
     img {
         width: 170px;
-        margin-top: -50px;
+        margin-top: 35px;
     }
-    h2 {
-        margin: 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+  /* remember to change max/min 1024 */
+
+  .origins {
+    img {
+      float: right;
     }
-    .container div {
-        float: left;
-        max-width: 650px;
-        text-align: left;
-    }
+  }
 }
 
 
