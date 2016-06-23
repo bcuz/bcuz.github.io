@@ -1,5 +1,5 @@
 $(function() {
-  $("header img").click(function() {
+  $("nav img").click(function() {
     $("nav ul").toggle()
   })
 
