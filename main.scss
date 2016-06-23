@@ -1,13 +1,5 @@
 @import "grid";
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-
 html,
 body {
     margin: 0;
@@ -142,11 +134,11 @@ section {
 }
 
     .intro-image, .location-image {
-      @extend .col-3;
+      @extend .col-md-3;
     }
 
     .intro-text, .location-text {
-      @extend .col-9;
+      @extend .col-md-9;
     }
 }
 
