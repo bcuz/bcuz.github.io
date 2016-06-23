@@ -188,12 +188,21 @@ section {
 }
 
 
+@media screen and (min-width: 700px) {
+  /* remember to change max/min 1024 */
+  .location img {
+    padding: 0 200px;
+  }
+}
+
+
 @media screen and (min-width: 1024px) {
   /* remember to change max/min 1024 */
 
   .location {
     img {
       margin: 0;
+      padding: 0;
     }
   }
 }
