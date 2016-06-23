@@ -1,5 +1,13 @@
 @import "grid";
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 html,
 body {
     margin: 0;
@@ -120,6 +128,9 @@ section {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     p {
@@ -131,11 +142,11 @@ section {
 }
 
     .intro-image, .location-image {
-      @extend .col-4;
+      @extend .col-3;
     }
 
     .intro-text, .location-text {
-      @extend .col-8;
+      @extend .col-9;
     }
 }
 
@@ -150,7 +161,7 @@ section {
             text-align: start;
         }
         img {
-            display: inline;
+            // display: inline;
         }
 
         p {
@@ -167,8 +178,8 @@ section {
 .intro {
     img {
         border-radius: 100%;
-        width: 250px;
-        height: 250px;
+        // width: 250px;
+        // height: 250px;
     }
 }
 
@@ -177,7 +188,7 @@ section {
 
 .location {
     img {
-        width: 170px;
+        // width: 170px;
         margin-top: 35px;
     }
 }
