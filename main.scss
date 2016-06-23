@@ -11,8 +11,8 @@ body {
     margin: 0 auto;
 }
 
-.test {
-  @extend .col-8;
+.author-intro, .author-location {
+  @extend .row;
 }
 
 
