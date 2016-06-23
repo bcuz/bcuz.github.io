@@ -123,6 +123,10 @@ section {
         margin-left: auto;
         margin-right: auto;
     }
+
+    p {
+      padding: 0 15px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -135,6 +139,10 @@ section {
         }
         img {
             display: inline;
+        }
+
+        p {
+          padding: 0;
         }
     }
 }
@@ -210,11 +218,5 @@ footer {
         background-color: #A9B7B9;
         padding: 30px 5px;
         transition: background-color .7s;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    section p {
-        padding: 0 15px;
     }
 }
