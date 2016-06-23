@@ -11,7 +11,10 @@ body {
     margin: 0 auto;
 }
 
-
+a, a:focus, a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
 /* header */
 
 header {
@@ -69,7 +72,7 @@ nav {
         text-transform: uppercase;
     }
     ul {
-        margin-top: 1.5em;
+        margin-top: 1.8em;
         padding-left: 0;
         display: none;
         max-width: 200px;
@@ -231,14 +234,11 @@ footer {
         display: inline;
         padding: 28px 5px;
     }
-    a, a:focus {
-        text-decoration: none;
-        color: #fff;
-    }
+
     a:hover {
         background-color: #A9B7B9;
         text-decoration: none;
-        color: #fff;
+        color: inherit;
         padding: 30px 5px;
         transition: background-color .7s;
     }
