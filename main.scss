@@ -11,10 +11,6 @@ body {
     margin: 0 auto;
 }
 
-.author-intro, .author-location {
-  @extend .row;
-}
-
 
 /* header */
 
@@ -133,7 +129,21 @@ section {
     p {
       padding: 0 15px;
     }
+
+    .author-intro, .author-location {
+  @extend .row;
 }
+
+    .intro-image, .location-image {
+      @extend .col-4;
+    }
+
+    .intro-text, .location-text {
+      @extend .col-8;
+    }
+}
+
+
 
 @media screen and (min-width: 1024px) {
     /* remember to change max/min 1024 */
