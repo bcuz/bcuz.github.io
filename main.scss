@@ -231,12 +231,14 @@ footer {
         display: inline;
         padding: 28px 5px;
     }
-    a {
+    a, a:focus {
         text-decoration: none;
         color: #fff;
     }
     a:hover {
         background-color: #A9B7B9;
+        text-decoration: none;
+        color: #fff;
         padding: 30px 5px;
         transition: background-color .7s;
     }
