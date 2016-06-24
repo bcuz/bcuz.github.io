@@ -240,7 +240,13 @@ section {
     .col-md-6 {
     margin-bottom: 1em;
     padding: 0 30px;
+    text-align: center;
 
+    }
+
+    a:last-child {
+        margin-top: 1em;
+        display: inline-block;
     }
 
 
