@@ -11,10 +11,6 @@ body {
     margin: 0 auto;
 }
 
-a, a:focus, a:hover {
-        text-decoration: none;
-        color: inherit;
-    }
 /* header */
 
 header {
@@ -64,6 +60,7 @@ nav {
     }
     a:hover {
         color: #000;
+        text-decoration: inherit;
     }
     h1 {
         font-size: 1.2em;
@@ -107,6 +104,7 @@ nav {
 .btn:focus {
     background-color: magenta;
     color: #fff;
+    text-decoration: inherit;
 }
 
 /* all sections */
@@ -280,6 +278,10 @@ footer {
     li {
         display: inline;
         padding: 28px 5px;
+    }
+
+    a {
+        color: inherit;
     }
 
     a:hover {
