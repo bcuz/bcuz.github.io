@@ -136,12 +136,20 @@ section {
   @extend .row;
 }
 
-    .intro-image, .location-image {
-      @extend .col-md-3;
+    .intro-image {
+      @extend .col-md-4;
     }
 
-    .intro-text, .location-text {
-      @extend .col-md-9;
+    .location-image {
+        @extend .col-md-3;
+    }
+
+    .intro-text{
+      @extend .col-md-8;
+    }
+
+    .location-text {
+        @extend .col-md-9
     }
 }
 
