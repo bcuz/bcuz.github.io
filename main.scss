@@ -225,9 +225,18 @@ section {
     }
 
     p {
-        width: 500px;
+
         text-align: center;
         margin: 14px auto;
+    }
+
+
+    @media screen and (min-width: 700px) {
+      /* remember to change max/min 1024 */
+      p {
+      width: 500px;
+
+      }
     }
 
     .col-md-6 {
