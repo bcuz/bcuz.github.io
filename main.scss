@@ -218,11 +218,16 @@ section {
 }
 
 .projects {
-    text-align: center;
 
     h2 {
     margin-top: 70px;
     text-align: center;
+    }
+
+    p {
+        width: 500px;
+        text-align: center;
+        margin: 14px auto;
     }
 
     .wrapper {
