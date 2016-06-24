@@ -318,6 +318,11 @@ footer {
         color: inherit;
     }
 
+    a:focus {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
     a:hover {
         background-color: #A9B7B9;
         text-decoration: none;
