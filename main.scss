@@ -99,6 +99,27 @@ nav {
     }
 }
 
+
+@media screen and (min-width: 700px) {
+  /* remember to change max/min 1024 */
+
+  nav {
+    h1, img {
+        display: none;
+    }
+
+    ul {
+        display: block;
+        max-width: initial;
+    }
+
+    li {
+        display: inline;
+    }
+
+  }
+}
+
 .btn {
     text-transform: uppercase;
     display: inline-block;
