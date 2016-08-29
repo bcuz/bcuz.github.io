@@ -1,4 +1,6 @@
 $(function() {
+
+  // not working for portfolio page
   $("nav img").click(function(event) {
     event.stopPropagation();
     $("nav ul").toggle()
