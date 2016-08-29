@@ -104,17 +104,17 @@ nav {
   /* remember to change max/min 1024 */
 
   nav {
-
-    h1, img, li:nth-child(2) {
-        display: none;
-    }
-
     ul {
         text-align: left;
         display: block;
         max-width: initial;
         background-color: transparent;
     }
+
+    h1, img, li:nth-child(2) {
+        display: none;
+    }
+
 
     a, li, li:first-child {
         display: inline;
