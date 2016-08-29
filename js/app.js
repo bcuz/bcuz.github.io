@@ -5,7 +5,11 @@ $(function() {
   })
 
   $(document).click( function(){
-    $('nav ul').hide();
+    var viewportWidth = $(window).width();
+       if (viewportWidth < 700 ){
+
+          $('nav ul').hide();
+       }
 });
 
   $(window).resize(function(){
