@@ -125,6 +125,15 @@ nav {
         // font-size: 1.2em;
     }
 
+    li:first-child:hover {
+        background-color: #fff;
+        padding: 17px 10px 14px;
+    }
+
+    .name:hover {
+        color: #000;
+    }
+
     li:hover {
         background-color: transparent;
     }
