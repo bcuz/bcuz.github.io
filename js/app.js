@@ -8,6 +8,16 @@ $(function() {
     $('nav ul').hide();
 });
 
+//   $(window).resize(function(){
+
+//        if ($('header').width() == 700 ){
+
+//               $("nav ul").show();
+
+//        }
+
+// });
+
   $(".broadway-before-after").hover(function() {
     $(this).attr("src", "images/broadway.png")
   }, function() {
