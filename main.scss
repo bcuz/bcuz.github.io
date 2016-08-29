@@ -107,9 +107,10 @@ nav {
 
 .btn:hover,
 .btn:focus {
-    background-color: magenta;
+    background-color: rgba(0, 0, 0, .5);;
     color: #fff;
     text-decoration: inherit;
+    border: 1px solid #fff;
 }
 
 /* all sections */
