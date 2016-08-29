@@ -1,7 +1,12 @@
 $(function() {
-  $("nav img").click(function() {
+  $("nav img").click(function(event) {
+    event.stopPropagation();
     $("nav ul").toggle()
   })
+
+  $(document).click( function(){
+    $('nav ul').hide();
+});
 
   $(".broadway-before-after").hover(function() {
     $(this).attr("src", "images/broadway.png")
