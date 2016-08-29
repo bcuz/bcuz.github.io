@@ -9,6 +9,7 @@ $(function() {
 });
 
   $(window).resize(function(){
+    // bug still exists
         var viewportWidth = $(window).width();
        if (viewportWidth >= 700 ){
 
