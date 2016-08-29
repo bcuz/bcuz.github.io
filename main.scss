@@ -120,6 +120,11 @@ nav {
         display: inline;
     }
 
+    li:first-child {
+        text-transform: uppercase;
+        // font-size: 1.2em;
+    }
+
     li:hover {
         background-color: transparent;
     }
