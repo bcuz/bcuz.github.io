@@ -8,15 +8,17 @@ $(function() {
     $('nav ul').hide();
 });
 
-//   $(window).resize(function(){
+  $(window).resize(function(){
+        var viewportWidth = $(window).width();
+       if (viewportWidth >= 700 ){
 
-//        if ($('header').width() == 700 ){
+          $("nav ul").show();
 
-//               $("nav ul").show();
+       } else {
+          $("nav ul").hide();
+       }
 
-//        }
-
-// });
+});
 
   $(".broadway-before-after").hover(function() {
     $(this).attr("src", "images/broadway.png")
