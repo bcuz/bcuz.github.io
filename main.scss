@@ -111,9 +111,10 @@ nav {
     ul {
         display: block;
         max-width: initial;
+        background-color: transparent;
     }
 
-    li {
+    li, li:first-child {
         display: inline;
     }
 
