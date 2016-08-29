@@ -90,6 +90,10 @@ nav {
         background-color: #fff;
         color: #000;
     }
+
+    li:first-child {
+        display: none;
+    }
     .wrapper {
         margin-top: 1em;
     }
