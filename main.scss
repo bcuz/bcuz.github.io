@@ -104,18 +104,28 @@ nav {
   /* remember to change max/min 1024 */
 
   nav {
-    h1, img {
+
+    h1, img, li:nth-child(2) {
         display: none;
     }
 
     ul {
+        text-align: left;
         display: block;
         max-width: initial;
         background-color: transparent;
     }
 
-    li, li:first-child {
+    a, li, li:first-child {
         display: inline;
+    }
+
+    li:hover {
+        background-color: transparent;
+    }
+
+    a:hover {
+        color: #fff;
     }
 
   }
