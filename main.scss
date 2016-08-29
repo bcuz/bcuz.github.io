@@ -304,13 +304,14 @@ footer {
 
     a {
         color: inherit;
+        padding: 30px 5px;
     }
 
     a:hover {
         background-color: #A9B7B9;
         text-decoration: none;
         color: inherit;
-        padding: 30px 5px;
+
         transition: background-color .7s;
     }
 }
