@@ -1,4 +1,11 @@
 $(function() {
+
+    $("header").backstretch([
+     "img/forest.jpg",
+     "img/tennis.jpg"
+], {duration: 3000, fade: 750});
+
+
   $("nav img").click(function(event) {
     event.stopPropagation();
     $("nav ul").toggle()
