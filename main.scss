@@ -212,12 +212,20 @@ section {
     }
 
     .intro-text p, .location-text p {
-        width: 80%;
         margin: 0 auto;
     }
 
     .location-text {
         @extend .col-md-9;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) {
+  /* remember to change max/min 1024 */
+  .intro-text p, .location-text p {
+        width: 80%;
     }
 
 }
