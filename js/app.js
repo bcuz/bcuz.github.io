@@ -45,5 +45,13 @@ $(function() {
    })
 
 
+  var no_opacity = ["img/bestbite.png", "img/before-bestbite.png", "img/before-broad.png", "img/broadway.png"]
+
+  $(".project img").hover(function() {
+    if (no_opacity.indexOf($(this).attr("src")) === -1) {
+      $(this).toggleClass("opaque")
+    }
+  })
+
 
 });
