@@ -2,8 +2,8 @@ $(function() {
 
     $("header").backstretch([
      "img/forest.jpg",
-     "img/tennis.jpg"
-], {duration: 4000, fade: 750});
+     "img/river.jpg"
+], {duration: 3000, fade: 750});
 
 
   $("nav img").click(function(event) {
