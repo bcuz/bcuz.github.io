@@ -235,12 +235,16 @@ section {
 
         p {
           padding: 0;
-          float: left;
+
         }
 
         .intro-text {
             padding-left: 30px;
         }
+
+        .intro-text p, .location-text p {
+        float: left;
+    }
 
     }
 }
