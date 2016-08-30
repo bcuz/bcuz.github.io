@@ -293,6 +293,10 @@ section {
     }
 }
 
+.projects:nth-child(2) {
+    padding-bottom: 0px;
+}
+
 .projects {
     height: auto;
 
@@ -353,15 +357,13 @@ section {
 }
 
 
+
 @media screen and (min-width: 1024px) {
   /* remember to change max/min 1024 */
   .projects {
         padding-bottom: 50px;
       }
 
-  .projects:nth-child(2) {
-    padding-bottom: 0px;
-}
 }
 
 /* footer */
