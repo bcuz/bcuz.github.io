@@ -87,7 +87,7 @@ nav {
         padding: 5px 10px;
     }
     li:hover {
-        background-color: #B8C4CC;
+        background-color: #A1ACB2;
         color: #000;
     }
 
@@ -125,7 +125,7 @@ nav {
     }
 
     li:first-child:hover {
-        background-color: #B8C4CC;
+        background-color: #A1ACB2;
         padding: 8px 10px;
         border-radius: 5px;
     }
@@ -151,10 +151,11 @@ nav {
     display: inline-block;
     margin-top: 30px;
     padding: 10px 40px;
-    background-color: #B8C4CC;
+    background-color: #A1ACB2;
     text-decoration: none;
     color: #fff;
     border-radius: 5px;
+    font-size: 1.1em;
 }
 
 .btn:hover,
