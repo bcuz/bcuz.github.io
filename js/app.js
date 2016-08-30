@@ -25,16 +25,16 @@ $(function() {
 });
 
   $(".broadway-before-after").hover(function() {
-    $(this).attr("src", "images/broadway.png")
+    $(this).attr("src", "img/broadway.png")
   }, function() {
-     $(this).attr("src", "images/before-broad.png")
+     $(this).attr("src", "img/before-broad.png")
    })
 
 
   $(".bestbite-before").hover(function() {
-    $(this).attr("src", "images/bestbite.png")
+    $(this).attr("src", "img/bestbite.png")
   }, function() {
-     $(this).attr("src", "images/before-bestbite.png")
+     $(this).attr("src", "img/before-bestbite.png")
    })
 
 
