@@ -298,6 +298,12 @@ section {
 
     .project {
         @extend .col-md-6;
+
+
+        a:last-child {
+        margin-top: 1em;
+        display: inline-block;
+    }
     }
 
     h2 {
@@ -328,10 +334,7 @@ section {
 
     }
 
-    a:last-child {
-        margin-top: 1em;
-        display: inline-block;
-    }
+
 
 
     @media screen and (min-width: 1024px) {
