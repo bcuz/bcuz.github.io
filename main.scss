@@ -131,17 +131,6 @@ nav {
         display: none;
     }
 
-    // h1 a {
-    //     padding: 8px 10px;
-    // }
-
-    // h1 a:hover {
-    //     display: inline-block;
-    //     color: #fff;
-    //     background-color: $gray;
-    //     border-radius: 5px;
-    // }
-
     li:first-child a {
         padding: 8px 10px;
     }
@@ -151,9 +140,6 @@ nav {
         border-radius: 5px;
     }
 
-    // why do i have to wait until i'm touching
-    // the actual anchor element to be able to click?
-
     a, li, li:first-child {
         display: inline;
     }
@@ -161,14 +147,6 @@ nav {
     li:first-child {
         text-transform: uppercase;
         font-weight: 600;
-    }
-
-    li:first-child:hover {
-        // background-color: $gray;
-        // // take this padding away, then put it on the anchor
-        // // padding: 5px 10px;
-        // // padding: 0;
-        // border-radius: 5px;
     }
 
     li:hover {
