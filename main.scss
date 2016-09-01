@@ -169,8 +169,8 @@ nav {
 
 /* all sections */
 
+
 .location, .intro {
-    border-bottom: 1px solid #eee;
     margin-top: 70px;
 
     img {
@@ -264,6 +264,7 @@ section {
 /* 1st section*/
 
 .intro {
+    border-bottom: 1px solid #eee;
     img {
         border-radius: 100%;
     }
