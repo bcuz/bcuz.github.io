@@ -308,6 +308,11 @@ section {
 
 .projects:nth-child(2) {
     padding-bottom: 0px;
+
+    .wrapper {
+        border-bottom: 1px solid #fff;
+
+    }
 }
 
 .projects {
