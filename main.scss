@@ -264,7 +264,6 @@ section {
 /* 1st section*/
 
 .intro {
-    border-bottom: 1px solid #eee;
     img {
         border-radius: 100%;
     }
@@ -274,6 +273,7 @@ section {
 /* 2nd section */
 
 .location {
+    border-bottom: 1px solid #eee;
     img {
         margin-top: 35px;
     }
