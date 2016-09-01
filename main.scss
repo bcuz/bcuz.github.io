@@ -59,11 +59,14 @@ nav {
     height: 4em;
     text-align: left;
     padding-left: 1em;
+
     a {
         text-decoration: none;
         color: #fff;
         display: block;
+        padding: 8px 10px;
     }
+
     a:hover {
         text-decoration: inherit;
     }
@@ -74,12 +77,6 @@ nav {
         margin-top: -31px;
         text-transform: uppercase;
 
-    }
-
-    // guessing there's an optimization
-    // opp somewhere around here.
-    h1 a {
-        padding: 8px 10px;
     }
 
     h1 a:hover {
@@ -96,11 +93,12 @@ nav {
         background-color: rgba(0, 0, 0, .5);
         text-align: center;
     }
+
     li {
         font-size: 1.2em;
         list-style: none;
-        padding: 5px 10px;
     }
+
     li:hover {
         background-color: $gray;
         color: #000;
@@ -109,6 +107,7 @@ nav {
     li:first-child {
         display: none;
     }
+
     .wrapper {
         margin-top: 1em;
     }
