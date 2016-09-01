@@ -142,9 +142,9 @@ nav {
     //     border-radius: 5px;
     // }
 
-    // li:first-child a {
-
-    // }
+    li:first-child a {
+        padding: 8px 10px;
+    }
 
     // why do i have to wait until i'm touching
     // the actual anchor element to be able to click?
@@ -161,7 +161,8 @@ nav {
     li:first-child:hover {
         background-color: $gray;
         // take this padding away, then put it on the anchor
-        // padding: 8px 10px;
+        padding: 8px 10px;
+        // padding: 0;
         border-radius: 5px;
     }
 
