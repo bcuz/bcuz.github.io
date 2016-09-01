@@ -142,6 +142,12 @@ nav {
     //     border-radius: 5px;
     // }
 
+    // li:first-child a {
+
+    // }
+
+    // why do i have to wait until i'm touching
+    // the actual anchor element to be able to click?
 
     a, li, li:first-child {
         display: inline;
