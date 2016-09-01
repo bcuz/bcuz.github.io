@@ -399,7 +399,7 @@ footer {
         padding: 51px 5px 53px;
     }
 
-    a:hover {
+    a:hover, a:focus {
         background-color: $gray;
         transition: background-color .7s;
     }
