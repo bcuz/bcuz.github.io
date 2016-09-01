@@ -160,6 +160,7 @@ nav {
 
     li:first-child:hover {
         background-color: $gray;
+        // take this padding away, then put it on the anchor
         // padding: 8px 10px;
         border-radius: 5px;
     }
