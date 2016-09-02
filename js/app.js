@@ -61,11 +61,11 @@ $(function() {
 
   $(".project img").hover(function() {
     if (no_opacity.indexOf($(this).attr("src")) === -1) {
-      $(this).toggleClass("opaque");
+      $(this).addClass("opaque");
     }
   }, function() {
     if (no_opacity.indexOf($(this).attr("src")) === -1) {
-      $(this).toggleClass("opaque");
+      $(this).removeClass("opaque");
   }
 });
 
