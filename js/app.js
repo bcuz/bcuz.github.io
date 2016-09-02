@@ -2,7 +2,7 @@ $(function() {
 
   $("nav ul li:nth-child(3) a").click(function(event) {
     event.preventDefault();
-    $.scrollTo(".projects", {offset:-55})
+    $.scrollTo(".projects", {offset:-55, duration: 1000})
 });
 
   $(".extension").click(function(event) {
