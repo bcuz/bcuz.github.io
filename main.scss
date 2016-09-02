@@ -247,6 +247,7 @@ section {
 .location .wrapper {
     // wrapper doesnt belong on section cause
     // section now take up entire width
+    padding-bottom: 70px;
     border-bottom: 1px solid #eee;
     img {
         margin-top: 35px;
