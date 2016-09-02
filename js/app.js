@@ -1,5 +1,15 @@
 $(function() {
 
+  $(".extension").click(function(event) {
+    event.preventDefault();
+
+    var quotes = ["ooooh I like the ctrl+shift+x - Chris",
+                  "yo that Ctrl+Shift+X is the love of my life - Ananth",
+                  "shift ctrl x made me SO HAPPY today"]
+    alert()
+
+  })
+
     $("header").backstretch([
      "img/forest.jpg",
      "img/river.jpg"
