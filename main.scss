@@ -284,6 +284,11 @@ section {
 .btn-row {
     @extend .row;
     text-align: center;
+
+    .btn {
+        margin: 0;
+    }
+
 }
 
 .projects:nth-child(2) {
