@@ -63,7 +63,11 @@ $(function() {
     if (no_opacity.indexOf($(this).attr("src")) === -1) {
       $(this).toggleClass("opaque");
     }
-  });
+  }, function() {
+    if (no_opacity.indexOf($(this).attr("src")) === -1) {
+      $(this).toggleClass("opaque");
+  }
+});
 
 
 });
