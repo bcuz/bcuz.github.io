@@ -195,6 +195,7 @@ section {
     .intro-text p,
     .location-text p {
         margin: 0 auto;
+        padding: 0 15px;
     }
     .location-text {
         @extend .col-md-9;
