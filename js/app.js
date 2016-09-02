@@ -1,5 +1,10 @@
 $(function() {
 
+  $("nav ul li:nth-child(3) a").click(function(event) {
+    event.preventDefault();
+    $.scrollTo(".projects", {offset:-55})
+});
+
   $(".extension").click(function(event) {
     event.preventDefault();
 
