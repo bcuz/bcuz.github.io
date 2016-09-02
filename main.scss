@@ -182,7 +182,6 @@ section {
         @extend .img-responsive;
     }
     p {
-        padding: 0 15px;
         font-size: 1.23em;
     }
     .author-intro,
@@ -270,6 +269,10 @@ section {
     h2 {
         margin: 0px 0px 5px;
     }
+
+    p {
+        padding: 0 15px;
+    }
 }
 
 .projects:nth-child(2) {
@@ -307,7 +310,7 @@ section {
     p {
         text-align: center;
         margin: 10px auto;
-        font-size: 1.15em;
+        font-size: 1.23em;
     }
     .col-md-6 {
         margin-bottom: 1em;
