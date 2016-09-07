@@ -272,7 +272,7 @@ section {
 .projects:nth-child(3) {
     background-color: #9ADBFF;
     color: #4D6E7F;
-    margin-top: 1.5em;
+    padding-top: 1.5em;
     h2 {
         padding: 0px 0px 5px;
     }
@@ -293,10 +293,7 @@ section {
 }
 
 .projects:nth-child(2) {
-    padding-bottom: 0px;
-    .wrapper {
-        border-bottom: 1px solid #fff;
-    }
+    padding-bottom: 2em;
 }
 
 .projects {
@@ -330,7 +327,6 @@ section {
         font-size: 1.23em;
     }
     .col-md-6 {
-        margin-bottom: 1em;
         padding: 0 30px;
         text-align: center;
     }
