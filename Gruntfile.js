@@ -55,30 +55,12 @@ uglify: {
           expand: true,
           // cwd is 'current working directory'
           cwd: 'img-raw',
-          src: ['*.png'],
+          src: ['*.{png,jpg,svg}'],
           // Could also match cwd line above. i.e. project-directory/img/
           dest: 'img/',
-          ext: '.png'
         }
       ]
     },
-    jpg: {
-      options: {
-        progressive: true
-      },
-      files: [
-        {
-          // Set to true to enable the following options…
-          expand: true,
-          // cwd is 'current working directory'
-          cwd: 'img-raw',
-          src: ['*.jpg'],
-          // Could also match cwd. i.e. project-directory/img/
-          dest: 'img/',
-          ext: '.jpg'
-        }
-      ]
-    }
   },
 
   connect: {
