@@ -9,7 +9,7 @@ module.exports = function(grunt){
       },
       // files:['site/**'],
       files:['*.html', '*.scss', '*.css', 'js/**'],
-      tasks:['sass']
+      tasks:['sass', 'cssmin']
       // spawn: false
 
     },
@@ -26,9 +26,13 @@ module.exports = function(grunt){
   },
   cssmin: {
   target: {
-    files: {
-      'style.min.css': 'style.css'
-    }
+    files:  [{
+      expand: true,
+      cwd: 'css',
+      src: '*.css',
+      dest: 'css/',
+      ext: '.min.css'
+    }]
   }
 },
   connect: {
@@ -52,5 +56,5 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.registerTask('server',[  'connect', 'watch', 'cssmin']);
+  grunt.registerTask('server',[  'connect', 'cssmin', 'watch' ]);
   };
