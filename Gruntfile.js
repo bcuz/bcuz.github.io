@@ -35,6 +35,15 @@ module.exports = function(grunt){
     }]
   }
 },
+
+uglify: {
+    my_target: {
+      files: {
+        'js/app.min.js': ['js/app.js']
+      }
+    }
+  },
+
   connect: {
     server: {
       options: {
@@ -56,5 +65,6 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.registerTask('server',[  'connect', 'cssmin', 'watch' ]);
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.registerTask('server',[  'connect', 'cssmin', 'uglify', 'watch' ]);
   };
