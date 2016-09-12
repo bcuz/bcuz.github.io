@@ -45,7 +45,7 @@ uglify: {
   },
 
   imagemin: {
-    png: {
+    dist: {
       options: {
         optimizationLevel: 7
       },
