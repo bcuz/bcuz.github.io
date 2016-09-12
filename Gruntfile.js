@@ -54,7 +54,7 @@ uglify: {
           // Set to true to enable the following options…
           expand: true,
           // cwd is 'current working directory'
-          cwd: 'images',
+          cwd: 'img-raw',
           src: ['*.png'],
           // Could also match cwd line above. i.e. project-directory/img/
           dest: 'img/',
@@ -71,7 +71,7 @@ uglify: {
           // Set to true to enable the following options…
           expand: true,
           // cwd is 'current working directory'
-          cwd: 'images',
+          cwd: 'img-raw',
           src: ['*.jpg'],
           // Could also match cwd. i.e. project-directory/img/
           dest: 'img/',
