@@ -29,7 +29,7 @@ module.exports = function(grunt){
     files:  [{
       expand: true,
       cwd: 'css',
-      src: '*.css',
+      src: 'style.css',
       dest: 'css/',
       ext: '.min.css'
     }]
