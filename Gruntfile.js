@@ -24,6 +24,13 @@ module.exports = function(grunt){
       }
     }
   },
+  cssmin: {
+  target: {
+    files: {
+      'style.min.css': 'style.css'
+    }
+  }
+},
   connect: {
     server: {
       options: {
@@ -44,5 +51,6 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
-  grunt.registerTask('server',[  'connect', 'watch']);
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.registerTask('server',[  'connect', 'watch', 'cssmin']);
   };
