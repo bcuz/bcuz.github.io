@@ -9,7 +9,7 @@ module.exports = function(grunt){
       },
       // files:['site/**'],
       files:['*.html', '*.scss', '*.css', 'js/**'],
-      tasks:['sass', 'cssmin']
+      tasks:['sass']
       // spawn: false
 
     },
