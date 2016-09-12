@@ -44,6 +44,43 @@ uglify: {
     }
   },
 
+  imagemin: {
+    png: {
+      options: {
+        optimizationLevel: 7
+      },
+      files: [
+        {
+          // Set to true to enable the following options…
+          expand: true,
+          // cwd is 'current working directory'
+          cwd: 'images',
+          src: ['*.png'],
+          // Could also match cwd line above. i.e. project-directory/img/
+          dest: 'img/',
+          ext: '.png'
+        }
+      ]
+    },
+    jpg: {
+      options: {
+        progressive: true
+      },
+      files: [
+        {
+          // Set to true to enable the following options…
+          expand: true,
+          // cwd is 'current working directory'
+          cwd: 'images',
+          src: ['*.jpg'],
+          // Could also match cwd. i.e. project-directory/img/
+          dest: 'img/',
+          ext: '.jpg'
+        }
+      ]
+    }
+  },
+
   connect: {
     server: {
       options: {
@@ -66,5 +103,6 @@ uglify: {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.registerTask('server',[  'connect', 'cssmin', 'uglify', 'watch' ]);
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.registerTask('server',[  'connect', 'cssmin', 'uglify', 'watch', 'imagemin' ]);
   };
