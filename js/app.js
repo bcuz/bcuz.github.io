@@ -1,5 +1,4 @@
 $(function() {
-
   $("nav ul li:nth-child(4) a").click(function(event) {
     event.preventDefault();
     $.scrollTo(".projects", {offset:-55, duration: 1000})
