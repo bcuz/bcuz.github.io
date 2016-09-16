@@ -53,7 +53,6 @@ uglify: {
         {
           // Set to true to enable the following options…
           expand: true,
-          // cwd is 'current working directory'
           cwd: 'raw-img',
           src: ['*.{png,jpg,svg}'],
           // Could also match cwd line above. i.e. project-directory/img/
