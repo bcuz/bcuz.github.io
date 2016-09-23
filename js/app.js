@@ -53,21 +53,21 @@ $(function() {
 
 });
 
-  $(".broadway-before-after").hover(function() {
-    $(this).attr("src", "img/broadway.png");
-  }, function() {
-     $(this).attr("src", "img/before-broad.png");
-   });
+  // $(".broadway-before-after").hover(function() {
+  //   $(this).attr("src", "img/broadway.png");
+  // }, function() {
+  //    $(this).attr("src", "img/before-broad.png");
+  //  });
 
 
-  $(".bestbite-before").hover(function() {
-    $(this).attr("src", "img/bestbite.png");
-  }, function() {
-     $(this).attr("src", "img/before-bestbite.png");
-   });
+  // $(".bestbite-before").hover(function() {
+  //   $(this).attr("src", "img/bestbite.png");
+  // }, function() {
+  //    $(this).attr("src", "img/before-bestbite.png");
+  //  });
 
 
-  var no_opacity = ["img/bestbite.png", "img/before-bestbite.png", "img/before-broad.png", "img/broadway.png"];
+  var no_opacity = [];
 
   $(".project img").hover(function() {
     if (no_opacity.indexOf($(this).attr("src")) === -1) {
