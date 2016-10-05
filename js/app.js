@@ -22,7 +22,7 @@ $(function() {
 
   });
 
-    $("header").backstretch([
+    $.backstretch([
      "img/forest.jpg",
      "img/river.jpg"
 ], {duration: 3000, fade: 750});
