@@ -23,6 +23,8 @@ $(function() {
   });
 
     $("header").backstretch([
+      // doesnt make sense that now it doesnt
+      // work at all on desktop
      "../img/forest.jpg",
      "../img/river.jpg"
 ], {duration: 3000, fade: 750});
