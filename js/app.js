@@ -22,10 +22,10 @@ $(function() {
 
   });
 
-    $("header").backstretch([
-     "img/forest.jpg",
-     "img/river.jpg"
-], {duration: 3000, fade: 750});
+//     $("header").backstretch([
+//      "img/forest.jpg",
+//      "img/river.jpg"
+// ], {duration: 3000, fade: 750});
 
 
   $("nav img").click(function(event) {
