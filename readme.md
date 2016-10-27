@@ -1,1 +1,1 @@
-See live: https://bcuz.github.io/portfolio/
+https://bcuz.github.io/portfolio/
