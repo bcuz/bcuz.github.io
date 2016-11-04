@@ -1,6 +1,9 @@
 // normalize is here
 
 // try using padding instead of fixed heights? 
+// inline block instead of inline for horizontal nav
+// could prolly put those imgs back to the size they
+// since it was zoom
 
 @import "grid";
 $gray: #A1ACB2;
@@ -385,8 +388,7 @@ footer {
         margin: 0 auto;
     }
     li {
-        display: inline;
-        padding: 28px 5px;
+        display: inline-block;
     }
     a {
         padding: 48px 5px 53px;
