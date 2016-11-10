@@ -294,7 +294,7 @@ section {
         padding: 0 15px;
     }
 
-    .project a:last-child {
+    .project a {
         color: #000;
     }
 }
@@ -323,7 +323,7 @@ section {
     }
     .project {
         @extend .col-md-6;
-        a:last-child {
+        a {
             margin-top: 1em;
             display: inline-block;
             font-size: 1.2em;
