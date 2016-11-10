@@ -171,12 +171,12 @@ nav {
     color: #4D6E7F;
 
 
-    .project a:last-child {
+    .project a {
         color: #000;
     }
 
     // gotta be a way to not dup this code
-    .project a:last-child:hover {
+    .project a:hover {
         color: #4D6E7F;
     }
 }
