@@ -43,7 +43,6 @@ header {
 }
 
 @media screen and (min-width: 700px) {
-    /* remember to change max/min 1024 */
     header {
         h2 {
             font-size: 5.6em;
@@ -104,7 +103,6 @@ nav {
 }
 
 @media screen and (min-width: 700px) {
-    /* remember to change max/min 1024 */
     nav {
         ul {
             margin-top: 0;
@@ -226,7 +224,6 @@ section {
         @extend .col-md-9;
     }
 @media screen and (min-width: 700px) {
-    /* remember to change max/min 1024 */
     .intro-text p,
     .location-text p {
         width: 90%;
@@ -237,7 +234,6 @@ section {
 
 
 @media screen and (min-width: 1024px) {
-    /* remember to change max/min 1024 */
     section {
         height: 300px;
         padding-bottom: 0;
@@ -279,7 +275,6 @@ section {
 }
 
 @media screen and (min-width: 1024px) {
-    /* remember to change max/min 1024 */
     .location img {
         margin: 0;
     }
@@ -326,7 +321,6 @@ section {
 .projects {
     height: auto;
     @media screen and (min-width: 700px) {
-        /* remember to change max/min 1024 */
         p {
             width: 500px;
         }
@@ -363,7 +357,6 @@ section {
         text-align: center;
     }
     @media screen and (min-width: 1024px) {
-        /* remember to change max/min 1024 */
         .col-md-6 {
             padding: 0 15px;
         }
@@ -377,7 +370,6 @@ section {
 }
 
 @media screen and (min-width: 1024px) {
-    /* remember to change max/min 1024 */
     .projects {
         padding-bottom: 50px;
     }
