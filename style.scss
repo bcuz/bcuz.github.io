@@ -320,11 +320,6 @@ section {
 
 .projects {
     height: auto;
-    @media screen and (min-width: 700px) {
-        p {
-            width: 500px;
-        }
-    }
     .project {
         @extend .col-md-6;
         a {
@@ -337,9 +332,18 @@ section {
         a:hover {
             color: #000;
         }
-        p {
-            width: auto;
-            margin-bottom: -10px;
+        @media screen and (min-width: 700px) {
+            p {
+                width: 500px;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            p {
+                width: auto;
+                margin-bottom: -10px;
+            }
+          
         }
     }
     h2 {
