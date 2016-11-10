@@ -164,7 +164,7 @@ nav {
 
 /* all sections */
 
-.projects:nth-child(4) {
+.projects:nth-child(4), .projects:nth-child(3) {
     background-color: #9ADBFF;
     color: #4D6E7F;
 
@@ -282,8 +282,6 @@ section {
 
 // portfolio section
 .projects:nth-child(3) {
-    background-color: #9ADBFF;
-    color: #4D6E7F;
     padding-top: 1.5em;
     h2 {
         padding: 0 0 5px;
@@ -296,12 +294,8 @@ section {
 
     .project a {
         margin-top: 0.5em;
-        color: #000;
     }
 
-    .project a:hover {
-        color: #4D6E7F;
-    }
 }
 
 .btn-row {
