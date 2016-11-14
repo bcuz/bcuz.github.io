@@ -4,6 +4,7 @@
 
 @import "grid";
 $gray: #A1ACB2;
+$dark-blue: #4D6E7F;
 html,
 body {
     margin: 0;
@@ -11,7 +12,7 @@ body {
 }
 
 body {
-    background-color: #4D6E7F;
+    background-color: $dark-blue;
 }
 
 .wrapper {
@@ -156,7 +157,7 @@ nav {
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     border: 1px solid #fff;
-    transition: all .3s ease-in-out;
+    transition: all .#4D6E7F;3s ease-in-out;
 }
 
 
@@ -164,8 +165,8 @@ nav {
 
 .projects:nth-child(4), .projects:nth-child(3) {
     background-color: #9ADBFF;
-    color: #4D6E7F;
-
+    color: $dark-blue;
+#4D6E7F;
 
     .project a {
         color: #000;
@@ -173,7 +174,7 @@ nav {
 
     // gotta be a way to not dup this code
     .project a:hover {
-        color: #4D6E7F;
+        color: $dark-blue;
     }
 }
 
