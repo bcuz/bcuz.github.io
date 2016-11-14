@@ -287,7 +287,16 @@ section {
     }
 
     p {
+        width: auto;
         padding: 0 15px;
+    }
+
+
+    @media screen and (min-width: 700px) {
+        p {
+            width: 500px;
+        }
+      
     }
 
     .project a {
