@@ -325,6 +325,8 @@ section {
         margin-bottom: 1em;
     }
 
+    // makes the img link a block 
+    // so it rests on its own line
     a:nth-child(4) {
         display: block;
     }
