@@ -9,7 +9,7 @@ $(function() {
 });
   $("nav ul li:nth-child(3) a").click(function(event) {
     event.preventDefault();
-    $.scrollTo(".location", {offset:-55, duration: 1000});
+    $.scrollTo(".intro", {offset:-55, duration: 1000});
 });
 
   $(".extension").click(function(event) {
