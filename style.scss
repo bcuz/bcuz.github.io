@@ -279,7 +279,7 @@ section {
 }
 
 // portfolio section
-// specific part for landing pages
+// landing pages
 .projects:nth-child(3) {
     padding-top: 1.5em;
     h2 {
@@ -317,12 +317,18 @@ section {
 
 }
 
+// javascript section
 .projects:nth-child(2) {
     padding-bottom: 2em;
 
     .col-md-6 {
         margin-bottom: 1em;
     }
+
+    a:nth-child(4) {
+        display: block;
+    }
+    
 }
 
 .projects {
@@ -335,6 +341,7 @@ section {
             font-size: 1.2em;
             color: $light-blue;
         }
+
 
         a:hover {
             color: #000;
