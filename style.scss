@@ -1,12 +1,9 @@
 // normalize is here
-
 // try using padding instead of fixed heights? 
-
 @import "grid";
 $gray: #A1ACB2;
 $dark-blue: #4D6E7F;
 $light-blue: #9ADBFF;
-
 html,
 body {
     margin: 0;
@@ -162,16 +159,16 @@ nav {
     transition: all .3s ease-in-out;
 }
 
+
 /* all sections */
 
-.projects:nth-child(4), .projects:nth-child(3) {
+.projects:nth-child(4),
+.projects:nth-child(3) {
     background-color: $light-blue;
     color: $dark-blue;
-
     .project a {
         color: #000;
     }
-
     .project a:hover {
         color: $dark-blue;
     }
@@ -221,15 +218,14 @@ section {
     .intro-text {
         @extend .col-md-9;
     }
-@media screen and (min-width: 700px) {
-    .goal-text p,
-    .intro-text p {
-        width: 90%;
-        padding: 0;
+    @media screen and (min-width: 700px) {
+        .goal-text p,
+        .intro-text p {
+            width: 90%;
+            padding: 0;
+        }
     }
 }
-}
-
 
 @media screen and (min-width: 1024px) {
     section {
@@ -286,51 +282,38 @@ section {
         padding: 0 0 5px;
         margin-bottom: 0;
     }
-
     p {
         width: auto;
         padding: 0 15px;
     }
-
-
     @media screen and (min-width: 700px) {
         p {
             width: 500px;
         }
-      
     }
-
-
     @media screen and (min-width: 1024px) {
         .project a {
             margin-top: 0.5em;
         }
-      
     }
-
-
 }
 
 .btn-row {
     @extend .row;
     text-align: center;
-
 }
 
 // javascript section
 .projects:nth-child(2) {
     padding-bottom: 2em;
-
     .col-md-6 {
         margin-bottom: 1em;
     }
-
     // makes the img link a block 
     // so it rests on its own line
     a:nth-child(4) {
         display: block;
     }
-    
 }
 
 .projects {
@@ -343,8 +326,6 @@ section {
             font-size: 1.2em;
             color: $light-blue;
         }
-
-
         a:hover {
             color: #000;
         }
@@ -353,7 +334,6 @@ section {
                 width: 500px;
             }
         }
-
         @media screen and (min-width: 1024px) {
             a {
                 margin: 1em 0 0;
@@ -362,7 +342,6 @@ section {
                 width: auto;
                 margin-bottom: -10px;
             }
-          
         }
     }
     h2 {
@@ -409,7 +388,8 @@ footer {
         width: 80px;
     }
     .wrapper {
-        padding: 20px 0 23px;;
+        padding: 20px 0 23px;
+        ;
     }
     ul {
         padding: 0;
