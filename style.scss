@@ -159,16 +159,14 @@ nav {
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     border: 1px solid #fff;
-    transition: all .#4D6E7F;3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
-
 
 /* all sections */
 
 .projects:nth-child(4), .projects:nth-child(3) {
     background-color: $light-blue;
     color: $dark-blue;
-#4D6E7F;
 
     .project a {
         color: #000;
