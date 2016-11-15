@@ -179,7 +179,7 @@ nav {
 }
 
 .location,
-.intro {
+.goal {
     padding-top: 50px;
     img {
         padding: 0 20px;
@@ -200,21 +200,21 @@ section {
     p {
         font-size: 1.23em;
     }
-    .author-intro,
+    .author-goal,
     .author-location,
     .project-row {
         @extend .row;
     }
-    .intro-image {
+    .goal-image {
         @extend .col-md-4;
     }
     .location-image {
         @extend .col-md-3;
     }
-    .intro-text {
+    .goal-text {
         @extend .col-md-8;
     }
-    .intro-text p,
+    .goal-text p,
     .location-text p {
         margin: 0 auto;
         padding: 0 15px;
@@ -223,7 +223,7 @@ section {
         @extend .col-md-9;
     }
 @media screen and (min-width: 700px) {
-    .intro-text p,
+    .goal-text p,
     .location-text p {
         width: 90%;
         padding: 0;
@@ -243,10 +243,10 @@ section {
         p {
             padding: 0;
         }
-        .intro-text {
+        .goal-text {
             padding-left: 30px;
         }
-        .intro-text p,
+        .goal-text p,
         .location-text p {
             float: left;
         }
@@ -256,7 +256,7 @@ section {
 
 /* 1st section*/
 
-.intro {
+.goal {
     img {
         border-radius: 100%;
     }
