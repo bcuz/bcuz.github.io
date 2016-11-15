@@ -171,7 +171,7 @@ nav {
     .project a {
         color: #000;
     }
-    
+
     .project a:hover {
         color: $dark-blue;
     }
@@ -300,9 +300,14 @@ section {
       
     }
 
-    .project a {
-        margin-top: 0.5em;
+
+    @media screen and (min-width: 1024px) {
+        .project a {
+            margin-top: 0.5em;
+        }
+      
     }
+
 
 }
 
@@ -325,8 +330,8 @@ section {
     .project {
         @extend .col-md-6;
         a {
-            margin-top: 0.5em;
-            display: block;
+            margin: 0 0 0.7em;
+            display: inline-block;
             font-size: 1.2em;
             color: $light-blue;
         }
@@ -342,7 +347,7 @@ section {
 
         @media screen and (min-width: 1024px) {
             a {
-                margin-top: 1em;
+                margin: 1em 0 0;
             }
             p {
                 width: auto;
