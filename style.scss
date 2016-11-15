@@ -178,7 +178,7 @@ nav {
     }
 }
 
-.location,
+.intro,
 .goal {
     padding-top: 50px;
     img {
@@ -201,30 +201,30 @@ section {
         font-size: 1.23em;
     }
     .author-goal,
-    .author-location,
+    .author-intro,
     .project-row {
         @extend .row;
     }
     .goal-image {
         @extend .col-md-4;
     }
-    .location-image {
+    .intro-image {
         @extend .col-md-3;
     }
     .goal-text {
         @extend .col-md-8;
     }
     .goal-text p,
-    .location-text p {
+    .intro-text p {
         margin: 0 auto;
         padding: 0 15px;
     }
-    .location-text {
+    .intro-text {
         @extend .col-md-9;
     }
 @media screen and (min-width: 700px) {
     .goal-text p,
-    .location-text p {
+    .intro-text p {
         width: 90%;
         padding: 0;
     }
@@ -247,7 +247,7 @@ section {
             padding-left: 30px;
         }
         .goal-text p,
-        .location-text p {
+        .intro-text p {
             float: left;
         }
     }
@@ -265,7 +265,7 @@ section {
 
 /* 2nd section */
 
-.location .wrapper {
+.intro .wrapper {
     // padding-bottom: 70px;
     // border-bottom: 1px solid #eee;
     img {
@@ -274,7 +274,7 @@ section {
 }
 
 @media screen and (min-width: 1024px) {
-    .location img {
+    .intro img {
         margin: 0;
     }
 }
