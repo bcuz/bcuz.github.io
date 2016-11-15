@@ -171,8 +171,7 @@ nav {
     .project a {
         color: #000;
     }
-
-    // gotta be a way to not dup this code
+    
     .project a:hover {
         color: $dark-blue;
     }
