@@ -71,24 +71,7 @@ uglify: {
         },
     },
 
-  // connect: {
-  //   server: {
-  //     options: {
-  //       port: 8000,
-  //       // base: './site',
-  //       base: '.',
-  //       hostname: 'localhost',
-  //       protocol: 'http',
-  //       livereload: true,
-  //       app: 'Firefox',
-  //       // open: 'true'
-  //     }
-  //   }
-  // },
-
   });
-
-  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks("grunt-php");
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
