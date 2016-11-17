@@ -7,10 +7,10 @@
     <nav>
         <div class="wrapper">
             <img src="img/menu.svg" alt="">
-            <h1><a href="index.html">Adam Nawrocki</a></h1>
+            <h1><a href="index.php">Adam Nawrocki</a></h1>
             <ul>
-                <li><a href="index.html" class="name">Adam Nawrocki</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php" class="name">Adam Nawrocki</a></li>
+                <li><a href="index.php">Home</a></li>
             </ul>
         </div>
     </nav>
