@@ -77,6 +77,7 @@
     </footer>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
 </body>
 
 </html>
