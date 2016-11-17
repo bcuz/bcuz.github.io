@@ -70,6 +70,8 @@
     </section>
     <?php include 'footer.php'; ?>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- maybe put scrollTo in port 
+    page too so i can throw script links in an include -->
     <script src="https://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
     <script src="js/app.js"></script>
     <script src="http://localhost:35729/livereload.js"></script>
