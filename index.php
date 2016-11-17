@@ -7,10 +7,10 @@
     <nav>
         <div class="wrapper">
             <img src="img/menu.svg" alt="">
-            <h1><a href="index.html">Adam Nawrocki</a></h1>
+            <h1><a href="index.php">Adam Nawrocki</a></h1>
             <ul>
-                <li><a href="index.html">Adam Nawrocki</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Adam Nawrocki</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
             </ul>
@@ -19,7 +19,7 @@
     <header>
         <div class="wrapper">
             <h2>Front End Developer</h2>
-            <a href="portfolio.html" class="btn">View Portfolio</a>
+            <a href="portfolio.php" class="btn">View Portfolio</a>
         </div>
     </header>
     <section class="intro">
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="btn-row">
-                <a href="portfolio.html" class="btn">View Full Portfolio</a>
+                <a href="portfolio.php" class="btn">View Full Portfolio</a>
             </div>
         </div>            
     </section>
