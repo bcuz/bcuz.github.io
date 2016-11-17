@@ -8,7 +8,7 @@ module.exports = function(grunt){
         spawn: false
       },
       // files:['site/**'],
-      files:['*.html', '*.scss', '*.css', 'js/**'],
+      files:['*.html', '*.php', '*.scss', '*.css', 'js/**'],
       tasks:['sass', 'uglify', 'cssmin']
       // spawn: false
 
