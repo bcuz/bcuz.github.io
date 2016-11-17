@@ -62,28 +62,38 @@ uglify: {
     },
   },
 
-  connect: {
-    server: {
-      options: {
-        port: 8000,
-        // base: './site',
-        base: '.',
-        hostname: 'localhost',
-        protocol: 'http',
-        livereload: true,
-        app: 'Firefox',
-        // open: 'true'
-      }
-    }
-  },
+  php: {
+        dist: {
+            options: {
+                port: 8000
+            }
+        },
+        watch: {}
+    },
+
+  // connect: {
+  //   server: {
+  //     options: {
+  //       port: 8000,
+  //       // base: './site',
+  //       base: '.',
+  //       hostname: 'localhost',
+  //       protocol: 'http',
+  //       livereload: true,
+  //       app: 'Firefox',
+  //       // open: 'true'
+  //     }
+  //   }
+  // },
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks("grunt-php");
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.registerTask('server', ['connect', 'watch', 'imagemin']);
+  grunt.registerTask('server', ['php:watch', 'watch', 'imagemin']);
   };
