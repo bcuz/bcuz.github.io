@@ -63,10 +63,10 @@ uglify: {
   },
 
   php: {
-        dist: {
+        dev: {
             options: {
-                port: 8000,
-                base: "."
+                hostname: 'localhost',
+                port: 8000
             }
         },
     },
@@ -95,5 +95,5 @@ uglify: {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.registerTask('server', ['php:dist', 'watch', 'imagemin']);
+  grunt.registerTask('server', ['php:dev', 'watch', 'imagemin']);
   };
