@@ -53,7 +53,7 @@ uglify: {
         {
           // Set to true to enable the following options…
           expand: true,
-          cwd: 'raw-img',
+          cwd: 'raw',
           src: ['*.{png,jpg,svg}'],
           // Could also match cwd line above. i.e. project-directory/img/
           dest: 'img/',
