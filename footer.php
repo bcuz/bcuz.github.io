@@ -14,6 +14,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- scrollTo not use on port paage -->
     <script src="https://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
     <script src="js/app.js"></script>
     <script src="http://localhost:35729/livereload.js"></script>
