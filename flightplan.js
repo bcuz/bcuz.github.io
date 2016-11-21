@@ -9,6 +9,8 @@ plan.target('production', [
     agent: process.env.SSH_AUTH_SOCK,
 
     webRoot: '/var/www/adamnawrocki.com'
+    // didnt work
+    // webRoot: 'public_html/adamnawrocki.com'
   },
 ]);
 
