@@ -3,7 +3,7 @@ var plan = require('flightplan');
 // configuration
 plan.target('production', [
   {
-    host: 'promotemyoffer.com',
+    host: 'adamnawrocki.com',
     username: 'promotem',
     port: 22,
     agent: process.env.SSH_AUTH_SOCK,
