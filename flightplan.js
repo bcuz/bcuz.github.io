@@ -8,7 +8,6 @@ plan.target('production', [
     port: 22,
     agent: process.env.SSH_AUTH_SOCK,
 
-    webRoot: '/var/www/adamnawrocki.com'
   },
 ]);
 
