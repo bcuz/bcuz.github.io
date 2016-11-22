@@ -1,4 +1,7 @@
-Portfolio: https://bcuz.github.io/<br>
-^ not working at the moment
+Portfolio
 
-In the process of moving to http://adamnawrocki.com
+https://bcuz.github.io/
+
+or
+
+http://adamnawrocki.com
