@@ -47,7 +47,7 @@
                     <!-- 620x550 pinta -->
                     <a href="http://bcuz.github.io/karma/"><img src="img/karma-b.png" class="img-responsive" alt=""></a>
                     <a href="#">See Code</a>
-                    <!-- 1165 x 750 on paint -->
+                    <!-- 1165 x 750 on paint. Could prolly go smaller -->
                     <a href="http://bcuz.github.io/broadway/"><img src="img/broadway.png" class="img-responsive broadway-before-after" alt=""></a>
                     <a href="#">See Code</a>
                 </div>
