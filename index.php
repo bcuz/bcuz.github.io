@@ -40,9 +40,9 @@
         <div class="wrapper">
             <div class="project-row">
                 <div class="project">
-                    <a href="https://bcuz.github.io/api/"><img src="img/api.png" alt=""></a>
+                    <a href="https://bcuz.github.io/weather-api/"><img src="img/api.png" alt=""></a>
                     <p>Using data from Weather Underground's API to display info for the selected city</p>
-                    <a href="https://github.com/bcuz/api">See Code</a>
+                    <a href="https://github.com/bcuz/weather-api">See Code</a>
                 </div>
                 <div class="project">
                     <a href="click-for-feature-testimonials"><img src="img/extension-b.png" class="extension" alt=""></a>
