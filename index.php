@@ -58,12 +58,12 @@
     <section class="intro">
         <div class="wrapper">
             <div class="author-intro">
+                <div class="intro-image">
+                    <img src="img/mitten.png" alt="michigan">
+                </div>
                 <div class="intro-text">
                     <h2>About Me</h2>
                     <p>I like teaching and constantly improving. In my spare time I read and play tennis.</p>
-                </div>
-                <div class="intro-image">
-                    <img src="img/mitten.png" alt="michigan">
                 </div>
             </div>
         </div>
