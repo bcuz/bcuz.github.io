@@ -25,12 +25,12 @@
     <section class="goal">
         <div class="wrapper">
             <div class="author-goal">
-                <div class="goal-image">
-                    <img src="img/puzzle.jpg" alt="">
-                </div>
                 <div class="goal-text">
                     <h2>Objective</h2>
                     <p>My goal is to improve a product that is moving the world forward at a place that puts work above status.</p>
+                </div>
+                <div class="goal-image">
+                    <img src="img/puzzle.jpg" alt="">
                 </div>
             </div>
         </div>

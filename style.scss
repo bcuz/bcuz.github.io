@@ -182,6 +182,8 @@ nav {
     }
 }
 
+
+
 section {
     color: #fff;
     padding-bottom: 40px;
@@ -254,7 +256,15 @@ section {
 .goal {
     img {
         border-radius: 100%;
+        margin-top: 30px;
     }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .goal img {
+    margin-top: 0;
+  }
 }
 
 
