@@ -22,15 +22,15 @@
             <a href="portfolio.php" class="btn">View Portfolio</a>
         </div>
     </header>
-    <section class="intro">
+    <section class="goal">
         <div class="wrapper">
-            <div class="author-intro">
-                <div class="intro-text">
-                    <h2>About Me</h2>
-                    <p>I like teaching and constantly improving. In my spare time I read and play tennis.</p>
+            <div class="author-goal">
+                <div class="goal-image">
+                    <img src="img/puzzle.jpg" alt="">
                 </div>
-                <div class="intro-image">
-                    <img src="img/mitten.png" alt="michigan">
+                <div class="goal-text">
+                    <h2>Objective</h2>
+                    <p>My goal is to improve a product that is moving the world forward at a place that puts work above status.</p>
                 </div>
             </div>
         </div>
@@ -55,15 +55,15 @@
             </div>
         </div>            
     </section>
-    <section class="goal">
+    <section class="intro">
         <div class="wrapper">
-            <div class="author-goal">
-                <div class="goal-image">
-                    <img src="img/puzzle.jpg" alt="">
+            <div class="author-intro">
+                <div class="intro-text">
+                    <h2>About Me</h2>
+                    <p>I like teaching and constantly improving. In my spare time I read and play tennis.</p>
                 </div>
-                <div class="goal-text">
-                    <h2>Objective</h2>
-                    <p>My goal is to improve a product that is moving the world forward at a place that puts work above status.</p>
+                <div class="intro-image">
+                    <img src="img/mitten.png" alt="michigan">
                 </div>
             </div>
         </div>
