@@ -1,6 +1,6 @@
 $(function() {
   // scroll to top on refresh.
-  // effect workflow
+  // effects workflow
   // $(this).scrollTop(0);
 
   $("nav ul li:nth-child(3) a").click(function(event) {
