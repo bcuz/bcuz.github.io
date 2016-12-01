@@ -15,6 +15,7 @@
         </div>
     </nav>
     <section class="projects">
+        <h1>Portfolio</h1>
         <h2>JavaScript</h2>
         <div class="wrapper">
             <div class="project-row">
