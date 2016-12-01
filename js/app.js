@@ -3,13 +3,9 @@ $(function() {
   // effect workflow
   // $(this).scrollTop(0);
 
-  $("nav ul li:nth-child(4) a").click(function(event) {
-    event.preventDefault();
-    $.scrollTo(".projects", {offset:-55, duration: 1000});
-});
   $("nav ul li:nth-child(3) a").click(function(event) {
     event.preventDefault();
-    $.scrollTo(".intro", {offset:-55, duration: 1000});
+    $.scrollTo(".projects", {offset:-55, duration: 1000});
 });
 
   $(".extension").click(function(event) {

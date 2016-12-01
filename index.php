@@ -11,7 +11,6 @@
             <ul>
                 <li><a href="index.php">Adam Nawrocki</a></li>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
             </ul>
         </div>
