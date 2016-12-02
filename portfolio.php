@@ -47,16 +47,16 @@
                 <div class="project">
                     <!-- 620x550 pinta -->
                     <a href="http://bcuz.github.io/karma/"><img src="img/karma-b.png" class="img-responsive" alt=""></a>
-                    <a href="#">See Code</a>
+                    <a href="https://github.com/bcuz/karma">See Code</a>
                     <!-- 1165 x 750 on paint. Could prolly go smaller -->
                     <a href="http://bcuz.github.io/broadway/"><img src="img/broadway.png" class="img-responsive broadway-before-after" alt=""></a>
-                    <a href="#">See Code</a>
+                    <a href="https://github.com/bcuz/broadway">See Code</a>
                 </div>
                 <div class="project">
                     <a href="https://bcuz.github.io/junction/"><img src="img/junction.png" alt=""></a>
-                    <a href="#">See Code</a>
+                    <a href="https://github.com/bcuz/junction">See Code</a>
                     <a href="http://bcuz.github.io/bestbite2/"><img src="img/bestbite-b.png" class="img-responsive bestbite-before" alt="" target="_blank"></a>
-                    <a href="#">See Code</a>
+                    <a href="https://github.com/bcuz/bestbite2">See Code</a>
                 </div>
             </div>
         </div>
