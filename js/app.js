@@ -8,18 +8,6 @@ $(function() {
     $.scrollTo(".projects", {offset:-55, duration: 1000});
 });
 
-  $(".extension").click(function(event) {
-    event.preventDefault();
-
-    var quotes = ['"ooooh I like the ctrl+shift+x" - Chris',
-                  '"yo that Ctrl+Shift+X is the love of my life" - Ananth',
-                  '"shift ctrl x made me SO HAPPY today" - Elise'];
-
-    var random_quote_index = Math.floor(Math.random() * 3);
-    alert(quotes[random_quote_index]);
-
-  });
-
 //     $("header").backstretch([
 //      "img/forest.jpg",
 //      "img/river.jpg"
