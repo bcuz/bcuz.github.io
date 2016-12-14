@@ -44,7 +44,7 @@
                     <a href="https://github.com/bcuz/weather-api">See Code</a>
                 </div>
                 <div class="project">
-                    <a href="click-for-feature-testimonials"><img src="img/extension-b.png" class="extension" alt=""></a>
+                    <a href="https://chrome.google.com/webstore/detail/advisor-toolbox-codecadem/apmnodoihmnkmbmlafeoggpbkckapaol"><img src="img/extension-b.png" class="extension" alt=""></a>
                     <p>I help maintain/develop a Chrome extension that Codecademy Advisors use to speed up workflow</p>
                     <a href="https://bitbucket.org/walom8868/codecademy-advisortoolbox/">See Code</a>
                 </div>
