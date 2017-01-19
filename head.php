@@ -1,6 +1,6 @@
 <?php
 
-$title = "Adam Nawrocki - Front End Developer";
+$title = "Adam Nawrocki - Web Developer";
 
 if (basename($_SERVER['PHP_SELF']) === "portfolio.php") {
   $title = "Portfolio";
