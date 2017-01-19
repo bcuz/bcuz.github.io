@@ -17,7 +17,7 @@
     </nav>
     <header>
         <div class="wrapper">
-            <h2>Front End Developer</h2>
+            <h2>Web Developer</h2>
             <a href="portfolio.php" class="btn">View Portfolio</a>
         </div>
     </header>
