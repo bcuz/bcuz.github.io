@@ -84,10 +84,11 @@ nav {
     li {
         font-size: 1.2em;
         list-style: none;
-    }
-    li:hover {
+
+        &:hover {
         background-color: $gray;
         color: #000;
+    }
     }
     li:first-child {
         display: none;
