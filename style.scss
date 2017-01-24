@@ -37,16 +37,13 @@ header {
         text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
            and nice enhancement for WebKit */
         -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+    @media screen and (min-width: 700px) {
+        font-size: 5.6em;    
+    }
     }
 }
 
-@media screen and (min-width: 700px) {
-    header {
-        h2 {
-            font-size: 5.6em;
-        }
-    }
-}
 
 nav {
     position: fixed;
