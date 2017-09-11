@@ -1,1 +1,1 @@
-Portfolio: http://adamnawrocki.com
+Portfolio: [http://adamnawrocki.com](http://adamnawrocki.com)
