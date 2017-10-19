@@ -62,7 +62,7 @@
                 </div>
                 <div class="intro-text">
                     <h2>About Me</h2>
-                    <p>I like teaching and constantly improving. In my spare time I read and play tennis.</p>
+                    <p>I like teaching and constantly improving. In my spare time I buy/read/trade books and play tennis.</p>
                 </div>
             </div>
         </div>
