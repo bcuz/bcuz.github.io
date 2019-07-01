@@ -1,1 +1,1 @@
-Portfolio: [[http://bcuz.github.io]](http://bcuz.github.io)
+Portfolio: [http://bcuz.github.io](http://bcuz.github.io)
